@@ -1,0 +1,67 @@
+/* body of website attributes */
+body {
+    background-color: #F2EFE9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* any h1 headers */ 
+h1 { 
+    font-family: "Silkscreen", sans-serif;
+    color: #2E294E;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* any h1 headers */ 
+h2 { 
+    font-family: "Changa", sans-serif;
+    color: #2E294E;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+/* any paragraphs */
+p { 
+    font-size: 25px;
+    color: #2E294E;
+    font-family: "Changa", sans-serif;
+    text-align: center;
+} 
+
+
+/* image boxes */ 
+.wrapper {
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+  }
+  
+  .box {
+    border: 10px solid #2E294E;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .box1 img {
+    object-fit: cover;
+  }
+  
+  .box2 img {
+    object-fit: contain;
+  }
+  
+  .box3 img {
+    object-fit: fill;
+  }
+
+
+  
