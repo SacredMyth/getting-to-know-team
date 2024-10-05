@@ -58,7 +58,7 @@ p {
 }
 
 .box2 img {
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .box3 img {
